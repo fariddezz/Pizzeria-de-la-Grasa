@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+header, footer {
+    background-color: #222222;
+}
+
+.main-nav {
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;  /* Esto crea el espacio máximo posible entre los dos divs */
+    align-items: center; /* Centra verticalmente los contenidos de los divs */
+    padding: 0 28px; /* Añade un poco de espacio a los lados por estética */
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    position: relative;
+    left: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.pizza {
+    color: green;  /* Verde */
+}
+
+.symbol {
+    color: white;  /* Blanco */
+}
+
+.font {
+    color: red;    /* Rojo */
+}
+
+.list-nav {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra horizontalmente centrada y ligeramente desplazada hacia abajo */
+    
+}
+
+.list-nav {
+    display: flex;
+    padding: 0;  /* Remueve el padding por defecto de la lista */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.list-nav li {
+    margin-right: 20px;  /* Añade un margen a la derecha de cada elemento <li> */
+}
+
+/* Remover el margen del último elemento para que no haya un espacio adicional al final */
+.list-nav li:last-child {
+    margin-right: 0;
+}
+
+main {
+    background-color: #f4f4f4;
+    padding: 20px 28px;
+    margin: auto;
+}
